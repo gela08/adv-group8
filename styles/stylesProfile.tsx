@@ -1,0 +1,113 @@
+import { StyleSheet } from "react-native";
+
+export default function stylesCreate() {
+    return StyleSheet.create({
+        container: {
+            flex: 1,
+            backgroundColor: '#fff',
+            padding: 20,
+            paddingTop: 0,
+        },
+        profContainer: {
+            borderWidth: 1,
+            borderColor: '#ccc',
+            borderRadius: 12,
+            padding: 20,
+            marginVertical: 20,
+            backgroundColor: '#f9f9f9',
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.1,
+            shadowRadius: 4,
+            elevation: 3,
+        },
+        title: {
+            textAlign: 'center',
+            fontSize: 24,
+            fontWeight: 'bold',
+            marginBottom: 20,
+        },
+        fieldContainer: {
+            marginBottom: 20,
+        },
+        label: {
+            fontSize: 16,
+            marginBottom: 6,
+            fontWeight: '600',
+            color: '#333',
+        },
+        input: {
+            borderWidth: 1,
+            borderColor: '#ccc',
+            backgroundColor: '#f3f3f3',
+            borderRadius: 8,
+            paddingHorizontal: 12,
+            paddingVertical: 10,
+            fontSize: 16,
+        },
+        button: {
+            marginTop: 8,
+            backgroundColor: '#007BFF',
+            paddingVertical: 12,
+            borderRadius: 8,
+            alignItems: 'center',
+        },
+        buttonText: {
+            color: '#fff',
+            fontWeight: '600',
+            fontSize: 16,
+        },
+        logoutButton: {
+            marginTop: 40,
+            backgroundColor: '#e53935',
+            paddingVertical: 12,
+            borderRadius: 8,
+            alignItems: 'center',
+        },
+        logoutText: {
+            color: '#fff',
+            fontWeight: 'bold',
+            fontSize: 16,
+        },
+        myPostsContainer: {
+            marginBottom: 20,
+            borderWidth: 1,
+            borderColor: '#ddd',
+            borderRadius: 12,
+            padding: 15,
+            backgroundColor: '#fdfdfd',
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: 1 },
+            shadowOpacity: 0.1,
+            shadowRadius: 3,
+            elevation: 2,
+        },
+        postItem: {
+            padding: 15,
+            borderRadius: 8,
+            backgroundColor: '#f5f5f5',
+            marginBottom: 10,
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: 1 },
+            shadowOpacity: 0.05,
+            shadowRadius: 2,
+            elevation: 1,
+        },
+        postTitle: {
+            fontSize: 18,
+            fontWeight: '600',
+            color: '#333',
+        },
+        postDate: {
+            fontSize: 14,
+            color: '#777',
+            marginTop: 5,
+        },
+        noPostsText: {
+            textAlign: 'center',
+            fontSize: 16,
+            color: '#777',
+            marginTop: 10,
+        },
+    });
+}
